@@ -1,0 +1,16 @@
+/* Footer.css */
+
+.footer-container {
+    --background: #f0f0f0;
+    --color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+
+.tab-selected{
+  color: #595959 !important;
+}
+  

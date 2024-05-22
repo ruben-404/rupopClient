@@ -1,0 +1,117 @@
+.image-container {
+    width: 100%;
+    height: 400px ; /* Establece el tamaño fijo que deseas para todas las imágenes */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto hará que la imagen se recorte para llenar el contenedor */
+  }
+
+  /* Estilo para el título del producto */
+.product-title {
+  font-size: 1.5em; /* Tamaño de letra predeterminado */
+}
+
+/* Estilo para el título del producto en dispositivos móviles */
+@media (max-width: 767px) {
+  .image-container {
+    width: 100%;
+    height: 10px;
+  }
+  .jii{
+    height: 307px !important;
+  }
+
+  .product-title {
+    font-size: 12em; /* Tamaño de letra más pequeño para móviles */
+  }
+}
+  
+
+/* Asegúrate de que las tarjetas tengan una altura fija */
+.IonCard {
+  height: 100%; /* Permite que las tarjetas crezcan uniformemente */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Controla la altura de la sección de la imagen */
+.image-container {
+  width: 100%;
+  height: 200px; /* Puedes ajustar esta altura según sea necesario */
+  overflow: hidden;
+  position: relative;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Esto hará que la imagen se recorte para llenar el contenedor */
+}
+
+/* Controla la altura de la sección del título */
+.product-title {
+  font-size: 1.2rem; /* Tamaño de fuente para el título */
+  line-height: 1.4; /* Altura de línea */
+  max-height: 2.8rem; /* Controla la altura máxima del título */
+  overflow: hidden; /* Oculta el texto que se desborda */
+  text-overflow: ellipsis; /* Añade puntos suspensivos al texto desbordante */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+@media (max-width: 767px) {
+  .product-title {
+    font-size: 1rem; /* Tamaño de fuente más pequeño para pantallas móviles */
+    max-height: 2rem; /* Ajusta la altura máxima del título en móvil */
+  }
+  .product-detail-container {
+    height: 103vh !important; 
+    overflow-y: auto !important;
+    transform: scale(0.9) !important;
+  }
+}
+
+/* Estilos para el contenido de la tarjeta */
+.IonCardContent {
+  flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Ajusta el estilo del botón y el icono de favoritos */
+.IonButton {
+  align-self: flex-end;
+}
+@media (min-width: 769px) {
+  .image-container {
+    height: 400px !important ; /* Establece el tamaño fijo que deseas para todas las imágenes */
+
+  }
+
+}
+
+.sssdd{
+  display: flex;
+}
+
+.sd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

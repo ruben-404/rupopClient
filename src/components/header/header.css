@@ -1,0 +1,31 @@
+/* Header.css */
+
+.header-container {
+  --background: #378CE7 !important;
+  --color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.logo-img {
+  width: 10% !important;
+  height: 70px !important; /* Altura deseada para el logotipo */
+  margin-left: 16px !important; /* Margen izquierdo para separar el logotipo del borde izquierdo */
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-img {
+    width: 100% !important; /* Ancho del 100% en dispositivos móviles */
+  }
+}
+
+
+
+.toolbar {
+  --background: #378CE7 !important;
+  display: flex; /* Utiliza flexbox para alinear elementos */
+  justify-content: flex-start; /* Alinea los elementos al principio (izquierda) */
+}

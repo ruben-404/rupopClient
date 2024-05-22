@@ -1,0 +1,32 @@
+
+.myProductsContent{
+    margin-top: 16%;
+    background-color: red;
+}
+.myProdcutsContent {
+    margin-top: 6%;
+}
+
+.no-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 767px) {
+    
+    .myProdcutsContent{
+        margin-top: 16%;
+    }
+
+}
+
+
+
+.scrollable-content {
+    padding-bottom: 5%;
+    height: 100vh; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto; /* Activa el scroll vertical cuando el contenido excede la altura máxima */
+  }
+  

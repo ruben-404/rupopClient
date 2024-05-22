@@ -1,0 +1,28 @@
+.greeting-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 19px;
+}
+
+.text-title{
+  margin-left: 19px;
+
+}
+  
+.logout-item {
+  cursor: pointer;
+}
+
+.login-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.no-validado{
+  margin-top: 100px;
+}
+
+.validado{
+  margin-top: 100px;
+}

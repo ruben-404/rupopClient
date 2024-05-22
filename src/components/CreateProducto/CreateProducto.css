@@ -1,0 +1,128 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  @media screen and (max-width: 600px) {
+    .register-container {
+      flex-direction: column;
+    }
+    .image-carousel {
+      width: 72%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 19px;
+    }
+    .image-carousel {
+      width: 77%;
+      padding-right: 22px;
+   }
+   .imageCard{
+    width: 71% !important;
+   }
+  }
+
+  button.fotoBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+  
+  
+  .card {
+  
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .from-login ion-input {
+    margin-bottom: 20px;
+  }
+
+  .image-carousel{
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .register-button {
+    --background: #3880ff;
+    --color: white;
+    --border-radius: 25px;
+    font-weight: bold;
+  }
+
+  #video-container {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  
+  #video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .fotoBoton{
+    width: 50px;
+    height: 50px;
+  }
+
+  .fotoBoton img{
+    width: 10%;
+  }
+
+  .image-container {
+    position: relative;
+  }
+  
+  .delete-icon {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .imageCard{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+  }
+  
+
+
+  @media only screen and (min-width: 769px) {
+    .form-create {
+      width: 19%;
+    }
+    .register-container{
+      /* margin-left: 320px; */
+    }
+  }
+  
